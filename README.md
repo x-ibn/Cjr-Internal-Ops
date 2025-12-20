@@ -23,7 +23,7 @@
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deployment & Access
 
 1.  Clone the repository to the secure directory:
     ```bash
@@ -33,7 +33,13 @@
     ```bash
     php install.php --silent
     ```
-3.  Authenticate using the master hash key.
+3.  Authenticate using the default master key.
+
+### 🔑 Default Credentials
+Use this key for initial setup access:
+> **Password:** `admin123`
+
+*(Note: System will enforce a password rotation after the first session for security)*
 
 ---
 
